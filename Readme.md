@@ -9,4 +9,10 @@ Resolución a las tareas y preguntas de la evaluación práctica
 
 2. Instalar GIT y GIT Bash:
 
+   -Git
+
 ![Imagen2](/../main/imagenes/git.png)
+
+   -Git Bash
+
+![Imagen3](/../main/imagenes/bash.png)
