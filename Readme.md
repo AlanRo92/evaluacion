@@ -47,8 +47,8 @@ Resolución a las tareas y preguntas de la evaluación práctica
 
 **5. ¿Qué es el response Code? ¿Qué significado tiene los posibles valores devueltos?**
 
-     R= Código de un response que indica si la solicutd fue atendida o no, y posibles razones por las que no fue atendida
-     -1xx: información sobre la solicitud que reicibio el servidor
+     R= Código de un response que indica si la solicitud fue atendida o no, y posibles razones por las que no fue atendida
+     -1xx: información sobre la solicitud que reicibió el servidor
      -2xx: la solicitud fue manejada de manera exitosa
      -3xx: redirección, que indica que se debe tomar medidas para que la solicitud sea existosa
      -4xx: error del lado del cliente
