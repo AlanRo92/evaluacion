@@ -3,11 +3,11 @@
 Resolución a las tareas y preguntas de la evaluación práctica 
 
 ## Ejercicio 1
-1. Instalar el IDE Visual Studio Code:
+**1. Instalar el IDE Visual Studio Code:**
 
 ![Imagen1](/../main/imagenes/vsc.png)
 
-2. Instalar GIT y GIT Bash:
+**2. Instalar GIT y GIT Bash:**
 
    -Git
 
@@ -90,3 +90,28 @@ Resolución a las tareas y preguntas de la evaluación práctica
 **11. ¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
 
      R= Campos que permiten proporcionar información adicional del lado del cliente en un request. El Content-type es para determinar el tipo de medio de la página
+     
+## Ejercicio 3
+**1. Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json**
+
+![Screen1](/imagenes/ex3_1.png)
+
+**2. Realizar un request POST a la URL anterior, y con body:**
+```
+{
+   "name":"Tu nombre",
+   "email":tunombre.tuapellido@procontacto.com.mx
+}
+```
+
+    Tip: (Marcar la opción “raw” como body)
+
+![Screen2](/imagenes/ex3_2.png)
+
+**3. Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json**
+
+![Screen3](/imagenes/ex3_3.png)
+
+¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
+
+    R= En el primer GET aun no estaba agregado el nuevo objeto, mientras que en el segundo se obervan los elementos agregados por el POST del punto 2
