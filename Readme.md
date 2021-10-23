@@ -90,3 +90,19 @@ Resolución a las tareas y preguntas de la evaluación práctica
 **11. ¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
 
      R= Campos que permiten proporcionar información adicional del lado del cliente en un request. El Content-type es para determinar el tipo de medio de la página
+     
+## Ejercicio 3
+1. Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+2. Realizar un request POST a la URL anterior, y con body:
+```
+{
+   "name":"Tu nombre",
+   "email":tunombre.tuapellido@procontacto.com.mx
+}
+```
+
+    Tip: (Marcar la opción “raw” como body)
+
+3. Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+
+¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
