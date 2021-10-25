@@ -115,3 +115,6 @@ Resolución a las tareas y preguntas de la evaluación práctica
 ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
 
     R= En el primer GET aun no estaba agregado el nuevo objeto, mientras que en el segundo se obervan los elementos agregados por el POST del punto 2
+
+## Ejercicio 4
+Resolución de los modulos de Trailhead en este [enlace](https://trailblazer.me/id/alanmejia)
