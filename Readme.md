@@ -270,6 +270,8 @@ B.	Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255
 
 C.	Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado en el punto B con el ID del punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto. Usar Playground 1. 
 
+![Imagen3](/imagenes/ex6_3.png)
+
 ## Ejercicio 7
 Responder las siguientes preguntas brevemente sobre:
 
@@ -277,140 +279,140 @@ Responder las siguientes preguntas brevemente sobre:
 
 **A.	¿Qué es Salesforce?**
 
-R=
+R= Es un sistema basado en la nube para la prestación de servicios de CRM, marketing, análisis de datos y desarrollo de aplicaciones
 
 **B.	¿Qué es Sales Cloud?**
 
-R=
+R= Es la plataforma de CRM de Salesforce para realizar ventas, marketing y soporte de usuario tanto en contextos B2B como B2C
 
 **C.	¿Qué es Service Cloud?**
 
-R=
+R= Es la plataforma de CRM de Salesforce para proporcionar servicio al cliente y soporte
 
 **D.	¿Qué es Health Cloud?**
 
-R=
+R= Es la plataforma de CRM de Salesforce enfocada en el sector médicco
 
 **E.	¿Qué es Marketing Cloud?**
 
-R=
+R= Plataforma de Salesforce enfocada en el Marketing que proporciona herramientas para que los equipos de ventas mejoren su relación con los clientes y mejorar las ventas, a traves del uso de la omnicanalidad 
 
 ### Funcionalidades de Salesforce
 
 **A.	¿Qué es un RecordType?**
 
-R=
+R= Método para tener diferentes tipos de visualizaciones de los mismos elementos, dependiendo de las características del cliente o transacción
 
 **B.	¿Qué es un ReportType?**
 
-R=
+R= Diferentes formas de reportes para reseñar operaciones y datos
 
 **C.	¿Qué es un Page Layout?**
 
-R=
+R= Función que permite modificar y editar las páginas y la forma en como se muestran los registros y sus campos
 
 **D.	¿Qué es un Compact Layout?**
 
-R=
+R= Es una forma de visualizar los elementos clave de un registro en diversos entornos de Salesforce
 
 **E.	¿Qué es un Perfil?**
 
-R=
+R= Es un conjunto de configuraciones y permisos proporcionados a un usuario específico de Salesforce que define el alcance de sus acciones en la plataforma
 
 **F.	¿Qué es un Rol?**
 
-R=
+R= Uno de los diferentes niveles de jerarquía de una organización. Determina el nivel de acceso (permisos) que se tiene a los elementos y operaciones
 
 **G.	¿Qué es un Validation Rule?**
 
-R=
+R= Una regla que permite verificar los datos ingresados
 
 **H.	¿Qué diferencia hay entre una relación Master Detail y Lookup?**
 
-R=
+R= La relación Lookup es una conexión entre dos objetos que comparten ciertos campos, mientras que la Master-Detail es una relación de jerarquía donde un objeto (master) controla ciertos comportamientos de el otro elemento (detail)
 
 **I.	¿Qué es un Sandbox?**
 
-R=
+R= Es un entorno para realizar pruebas, en salesforce, es una copia de una org en un entorno separado, se usa para desarrollo y testeo 
 
 **J.	¿Qué es un ChangeSet?**
 
-R=
+R= Es una funcionalidad que permite enviar personalizaciones entre orgs (de playground a playground, de sandbox a production org, etc.)
 
 **K.	¿Para qué sirve el import Wizard de Salesforce?**
 
-R=
+R= Es una interfaz que permite importar datos de diversos objetos estandar de Salesforce
 
 **L.	¿Para qué sirve la funcionalidad Web to Lead?**
 
-R=
+R= Para obtener clientes potenciales a traves de formularios web donde los usuarios proporcionan datos para ser almacenados
 
 **M.	¿Para qué sirve la funcionalidad Web to Case?**
 
-R=
+R= Permite la recolección de solicitudes de soporte directamente desde el sitio web para generar automáticamente varios casos a la vez
 
 **N.	¿Para qué sirve la funcionalidad Omnichannel?**
 
-R=
+R= Para ofrecer múltiples medios para la atención de servicio al cliente
 
 **O.	¿Para qué sirve la funcionalidad Chatter?**
 
-R=
+R= Herramienta que permite colaborar a traves de la interacción en chats, y que puede implementarse en diversos elementos
 
 ### Conceptos generales
 
 **A.	¿Qué significa SaaS?**
 
-R=
+R= Del inglés “Software as a Service”, software que es comercializado como un servicio más que como un producto, esto a veces implica que se tiene que pagar por una renta periódica de la licencia del software
 
 **B.	¿Salesforce es Saas?**
 
-R=
+R= No, es un sistema basado en la nube, sobre todo para ofrecer servicios de CRM (Customer Relationship Management), así como servicios de marketing y análisis de datos, entre otros, además de que no está centralizado
 
 **C.	¿Qué significa que una solución sea Cloud?**
 
-R=
+R= Que está en la “nube”, esto es, que se puede acceder a ella a través de cualquier dispositivo vía internet
 
 **D.	¿Qué significa que una solución sea On-Premise?**
 
-R=
+R= Que está diseñada para las necesidades de una organzación o empresa determinada, basada en sus características particulares y locales
 
 **E.	¿Qué es un pipeline de ventas?**
 
-R=
+R= Es un diagrama que permite visualizar como se empatan los prospectos con el proceso de venta
 
 **F.	¿Qué es un funnel de ventas?**
 
-R=
+R= Técnicas y estrategias para mejorar los procesos de ventas, usando metodos científicos y matemáticos
 
 **G.	¿Qué significa Customer Experience?**
 
-R=
+R=Son los diferentes elementos que se tienen para medir la satisfacción de los clientes durante todas las etapas del consumo de un producto
 
 **H.	¿Qué significa omnicanalidad?**
 
-R=
+R= Son los múltiples medios, de forma no integrada, por los cuales se puede comunicar o llegar a clientes potenciales, para la prestación de un servicio o la venta de algun producto
 
 **I.	¿Qué significa que un negocio sea B2B?¿Qué significa que un negocio sea B2C?¿Qué es un KPI?**
 
-R=
+R= Un negocio B2B es aquel que está enfocado en prestar servicios a otros negocios o empresas. Los negocios B2C son los que están enfocados en prestar servicios a usuarios finales. Un KPI es un indicador que permite medir que tan bien se estan logrado los objetivos de negocio
 
 **J.	¿Qué es una API y en qué se diferencia de una Rest API?**
 
-R=
+R= Una API o Interfaz de Programación de Aplicaciones es una interfaz que permite que piezas de código o software sea usado por otros programas. Una REST Api es aquella que   sigue los lineamientos y restricciones de la arquitectura REST 
 
 **K.	¿Qué es un Proceso Batch?**
 
-R=
+R= Un proceso que se realiza en lotes, siendo estos últimos grandes cantidades de registros
 
 **L.	¿Qué es Kanban?**
 
-R=
+R= Es un sistema de organización para realizar tareas que permitan la reducción de tiempo en la producción
 
 **M.	¿Qué es un ERP?**
 
-R=
+R= Es un conjunto de aplicaciones de software para la administración de negocios
 
 **N.	¿Salesforce es un ERP?**
 
-R=
+R= No, es un sistema basado en la nube, sobre todo para ofrecer servicios de CRM (Customer Relationship Management), así como servicios de marketing y análisis de datos, entre otros
