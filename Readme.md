@@ -272,6 +272,54 @@ C.	Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto
 
 ![Imagen3](/imagenes/ex6_3.png)
 
+### Código del Trigger
+
+**SetEmailTrigger**
+
+      trigger SetEmailTrigger on Contact (after insert, after update) {
+          SetEmailTriggerHandler.handlerTrigger(Trigger.New);
+      }
+
+**SetEmailTriggerHandler**
+
+      public class SetEmailTriggerHandler {
+          public static void handlerTrigger(List<Contact> listc){
+              for(Contact c : listc){
+                  if(c.idprocontacto__c=='-Mmfbo1Pv8PKjTM8ykfo'){
+                     EmailCallouts.makeGetCallout('-Mmfbo1Pv8PKjTM8ykfo');  
+                  }
+              }
+          }
+      }
+   
+**EmailCallouts**
+
+      public class EmailCallouts {
+          @future (callout=true)
+          public static void makeGetCallout(String idp) {
+              Contact cont;
+              Http http = new Http();
+              HttpRequest request = new HttpRequest();
+              request.setEndpoint('https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/'+idp+'.json');
+              request.setMethod('GET');
+              HttpResponse response = http.send(request);
+              // If the request is successful, parse the JSON response.
+              if(response.getStatusCode() == 200) {
+                  // Deserializes the JSON string into collections of primitive data types.
+                  Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
+
+                  String email = (String)results.get('email');
+
+                  cont = [SELECT Id,Name FROM Contact WHERE idprocontacto__c = '-Mmfbo1Pv8PKjTM8ykfo' LIMIT 1];
+                  cont.Email = email;
+
+                  //System.debug('Received the following email:');
+                  //System.debug(email);
+              }
+              upsert cont;
+          }
+      }
+      
 ## Ejercicio 7
 Responder las siguientes preguntas brevemente sobre:
 
