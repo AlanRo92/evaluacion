@@ -118,3 +118,139 @@ Resolución a las tareas y preguntas de la evaluación práctica
 
 ## Ejercicio 4
 Resolución de los modulos de Trailhead en este [enlace](https://trailblazer.me/id/alanmejia)
+
+## Ejercicio 5
+Explicar que son conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan el resto (algunos no se relacionan entre sí) cada uno de los siguientes
+objetos de Salesforce:
+
+**1. Lead:**
+Objeto que registra a los prospectos, es decir aquellos individuos que son buenos candidatos a adquirir una propiedad o servicio
+
+Datos almacenados:
+
+**Lead Information**
+
+-Name
+
+    -Last Name
+
+-Company
+
+-Lead Status
+
+**Address Information**
+
+**Additional Information**
+
+**Description Information**
+
+**2. Account:**
+Objeto que registra las cuentas, ententidades que ya han adquirido un producto o servicio y de las cuales se tiene un seguimiento
+
+Datos almacenados:
+
+**Account Information**
+
+-Account Name
+
+**Address Information**
+
+**Additional Information**
+
+**Description Information**
+
+**3. Contact:**
+Objeto que registra a los contactos, que son las personas con la que se puede comunicar para solicitar o recibir información, proporcionando diversos medios de contacto
+
+Datos almacenados:
+
+**Contact Information**
+
+-Name
+   
+    -Last Name
+
+**Address Information**
+
+**Additional Information**
+
+**Description Information**
+
+**4. Opportunity:**
+Objeto que registra las oportunidades asociadas a una cuenta. Son situaciones en la que se puede prestar un producto o servicio 
+
+Datos almacenados:
+
+**Opportunity Information**
+
+-Opportunity Name
+
+-Close Date
+
+-Forecast Category
+
+-Probability
+
+-Stage
+
+**Additional Information**
+
+**Description Information**
+
+**5. Product:**
+Objeto que registra los productos, con información relacionada para identificación
+
+Datos almacenados:
+
+**Product Information**
+
+-Product Name
+
+**6. PriceBook:**
+Objeto que registra los precios de los productos
+
+Datos almacenados:
+
+-Price Book Name
+
+**7. Quote:**
+Objeto que registra los precios de los productos o servicios ofertados para una oportunidad
+
+Datos almacenados:
+
+-Id
+
+**8. Asset**
+Objeto que registra los artículos ya adquiridos por un cliente
+
+Datos almacenados:
+
+**Asset Information**
+
+-Asset Name
+
+**9. Case**
+Objeto que registra los casos, que son eventos en los que se requiere dar soporte al cliente 
+
+Datos almacenados:
+
+**Case Information**
+
+-Case Number
+
+-Status
+   
+-Case Origin
+
+**Web Information**
+
+**Additional Information**
+
+**Description Information**
+
+**10. Article**
+Objeto que registra artículos
+
+Datos almacenados:
+
+-Id
