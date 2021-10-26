@@ -57,7 +57,7 @@ Resolución a las tareas y preguntas de la evaluación práctica
 
 **6. ¿Cómo se envía la data en un Get y cómo en un POST?**
 
-     R= En el GET solo se envia la página o datos que se pidio en la solicitud, mientras que con POST se envia una página con datos procesados por el servidor, como los datos de un formulario, por ejemplo 
+     R= En el GET se envía la página o datos que se pidio en la solicitud, mientras que con POST se envian datos para ser utilizados por el servidor, para almacenarlos o utilizarlos en un proceso, por ejemplo 
 
 **7. ¿Qué verbo http utiliza el navegador cuando accedemos a una página?**
 
@@ -124,7 +124,7 @@ Explicar que son conceptualmente, qué datos almacenan en forma estándar y cóm
 objetos de Salesforce:
 
 **1. Lead:**
-Objeto que registra a los prospectos, es decir aquellos individuos que son buenos candidatos a adquirir una propiedad o servicio
+Objeto que registra a los prospectos, es decir aquellos individuos que son clientes potenciales
 
 Datos almacenados:
 
@@ -145,7 +145,7 @@ Datos almacenados:
 **Description Information**
 
 **2. Account:**
-Objeto que registra las cuentas, ententidades que ya han adquirido un producto o servicio y de las cuales se tiene un seguimiento
+Objeto que registra las cuentas, entidades que ya han adquirido un producto o servicio y de las cuales se tiene un seguimiento
 
 Datos almacenados:
 
@@ -258,3 +258,150 @@ Datos almacenados:
 
 ### Relaciones
 ![Diagrama](/imagenes/diagramarelex5.png)
+
+## Ejercicio 6
+
+## Ejercicio 7
+Responder las siguientes preguntas brevemente sobre:
+
+### Soluciones de Salesforce
+
+**A.	¿Qué es Salesforce?**
+
+R=
+
+**B.	¿Qué es Sales Cloud?**
+
+R=
+
+**C.	¿Qué es Service Cloud?**
+
+R=
+
+**D.	¿Qué es Health Cloud?**
+
+R=
+
+**E.	¿Qué es Marketing Cloud?**
+
+R=
+
+### Funcionalidades de Salesforce
+
+**A.	¿Qué es un RecordType?**
+
+R=
+
+**B.	¿Qué es un ReportType?**
+
+R=
+
+**C.	¿Qué es un Page Layout?**
+
+R=
+
+**D.	¿Qué es un Compact Layout?**
+
+R=
+
+**E.	¿Qué es un Perfil?**
+
+R=
+
+**F.	¿Qué es un Rol?**
+
+R=
+
+**G.	¿Qué es un Validation Rule?**
+
+R=
+
+**H.	¿Qué diferencia hay entre una relación Master Detail y Lookup?**
+
+R=
+
+**I.	¿Qué es un Sandbox?**
+
+R=
+
+**J.	¿Qué es un ChangeSet?**
+
+R=
+
+**K.	¿Para qué sirve el import Wizard de Salesforce?**
+
+R=
+
+**L.	¿Para qué sirve la funcionalidad Web to Lead?**
+
+R=
+
+**M.	¿Para qué sirve la funcionalidad Web to Case?**
+
+R=
+
+**N.	¿Para qué sirve la funcionalidad Omnichannel?**
+
+R=
+
+**O.	¿Para qué sirve la funcionalidad Chatter?**
+
+R=
+
+### Conceptos generales
+
+**A.	¿Qué significa SaaS?**
+
+R=
+
+**B.	¿Salesforce es Saas?**
+
+R=
+
+**C.	¿Qué significa que una solución sea Cloud?**
+
+R=
+
+**D.	¿Qué significa que una solución sea On-Premise?**
+
+R=
+
+**E.	¿Qué es un pipeline de ventas?**
+
+R=
+
+**F.	¿Qué es un funnel de ventas?**
+
+R=
+
+**G.	¿Qué significa Customer Experience?**
+
+R=
+
+**H.	¿Qué significa omnicanalidad?**
+
+R=
+
+**I.	¿Qué significa que un negocio sea B2B?¿Qué significa que un negocio sea B2C?¿Qué es un KPI?**
+
+R=
+
+**J.	¿Qué es una API y en qué se diferencia de una Rest API?**
+
+R=
+
+**K.	¿Qué es un Proceso Batch?**
+
+R=
+
+**L.	¿Qué es Kanban?**
+
+R=
+
+**M.	¿Qué es un ERP?**
+
+R=
+
+**N.	¿Salesforce es un ERP?**
+
+R=
