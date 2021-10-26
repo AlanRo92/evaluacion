@@ -254,3 +254,7 @@ Objeto que registra artículos
 Datos almacenados:
 
 -Id
+
+
+### Relaciones
+![Diagrama](/imagenes/diagramarelex5.png)
