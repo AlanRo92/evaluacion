@@ -262,6 +262,8 @@ Datos almacenados:
 ## Ejercicio 6
 A.	Consultar ID haciendo un GET con POSTMAN al WS:
 
+![Imagen1](/imagenes/ex6_1.png)
+
 B.	Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255 caracteres. 
 
 C.	Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado en el punto B con el ID del punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto. Usar Playground 1. 
